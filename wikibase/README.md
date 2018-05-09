@@ -11,10 +11,9 @@ Automated build.
 
 Image name                                                       | Parent image
 ---------------------------------------------------------------- | ------------------------
-`wikibase/wikibase` : `latest`, `1.30`                           | [mediawiki:1.30](https://hub.docker.com/_/mediawiki/)
-`wikibase/wikibase-base` : `latest`, `1.30` (identical to above) | [mediawiki:1.30](https://hub.docker.com/_/mediawiki/)
+`wikibase/wikibase` : `latest`, `1.30` `latest-base`, `1.30-base`| [mediawiki:1.30](https://hub.docker.com/_/mediawiki/)
 `wikibase/wikibase` : `legacy`, `1.29`                           | [mediawiki:1.29](https://hub.docker.com/_/mediawiki/)
-`wikibase/wikibase-bundle` : `latest`, `1.30`                    | [wikibase:1.30](https://hub.docker.com/_/wikibase/)
+`wikibase/wikibase` : `latest-bundle`, `1.30-bundle`             | [wikibase:1.30](https://hub.docker.com/_/wikibase/)
 
 ## Bundle image
 Wikibase-bundle images are built from the base wikibase images and also include the following addtional extensions:
